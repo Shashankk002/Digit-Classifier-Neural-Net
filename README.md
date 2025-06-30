@@ -33,7 +33,6 @@ Output Layer (10 Softmax nodes)
 - **Forward pass** with ReLU and Softmax
 - **Cross-entropy loss** computation
 - **Backpropagation** with manual gradient computation
-- **Mini-batch gradient descent** (optional extension)
 - **One-hot encoding**
 - **Confusion matrix** & test accuracy visualization
 
@@ -41,26 +40,9 @@ Output Layer (10 Softmax nodes)
 
 ## 📈 Results
 
-- **Test Accuracy**: ~89.5% (trained on just 1000 examples)
+- **Test Accuracy**: ~95.0% (trained on just 10000 examples)
 - **Confusion Matrix**: Shows excellent performance on most digits
 - **Loss Curve**: Clear downward trend over training epochs
-
----
-
-## 🧪 How to Run
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/Digit-Classifier-NN-From-Scratch.git
-   cd Digit-Classifier-NN-From-Scratch
-   ```
-
-2. Open the notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-3. Run the notebook step-by-step.
 
 ---
 
@@ -72,29 +54,11 @@ Output Layer (10 Softmax nodes)
 
 ---
 
-## ✅ What Makes This Project Unique?
-
-Unlike typical ML projects, this one avoids high-level libraries. Every step — from initialization to prediction — is implemented manually using only NumPy. Perfect for interviews, learning, and demonstrating **core ML understanding**.
-
----
-
 ## 🛠️ Tools Used
 
-- Python 3.x
+- Python
 - NumPy
 - Matplotlib
 - Scikit-learn (only for data loading and final confusion matrix)
 
 ---
-
-## 🔍 Bonus
-
-Try extending the model with:
-- More layers (deep networks)
-- Activation functions (Tanh, Leaky ReLU)
-- Mini-batch SGD or Adam optimizer
-
----
-
-📌 **Author:** [Your Name]  
-📬 **Contact:** [your.email@example.com]
