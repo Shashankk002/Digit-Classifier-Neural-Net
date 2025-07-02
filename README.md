@@ -1,12 +1,12 @@
-# 🧠 Digit Classifier from Scratch using Neural Networks
+# Digit Classifier from Scratch using Neural Networks
 
-A beginner-friendly machine learning project that builds a **digit recognizer (0–9)** from the ground up using **only NumPy** — no machine learning libraries like Scikit-learn or TensorFlow. The entire pipeline is written from scratch to demonstrate mathematical understanding and implementation of neural networks.
+A hands-on machine learning project where I built a digit recognizer (0–9) using only NumPy — without relying on libraries like Scikit-learn or TensorFlow. The entire model pipeline, including training logic, was written manually to understand the math and working of neural networks at a deeper level.
 
 ---
 
 ## 📌 Project Overview
 
-This project tackles the classic **MNIST digit classification** problem using a simple neural network with:
+This project solves the classic **MNIST digit classification** problem using a simple neural network with:
 - One hidden layer (ReLU activation)
 - One output layer (Softmax for multiclass classification)
 - Manual gradient computation via **backpropagation**
@@ -28,7 +28,7 @@ Output Layer (10 Softmax nodes)
 
 ---
 
-## 💡 Key Concepts Implemented
+## Key Concepts Implemented
 
 - **Forward pass** with ReLU and Softmax
 - **Cross-entropy loss** computation
@@ -43,14 +43,6 @@ Output Layer (10 Softmax nodes)
 - **Test Accuracy**: ~95.0% (trained on just 10000 examples)
 - **Confusion Matrix**: Shows excellent performance on most digits
 - **Loss Curve**: Clear downward trend over training epochs
-
----
-
-## 📚 Learning Goals
-
-- Understand **how neural networks work** internally
-- Practice **manual implementation** of training algorithms
-- Build intuition about **classification**, **probability**, and **loss functions**
 
 ---
 
