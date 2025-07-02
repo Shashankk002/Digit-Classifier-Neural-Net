@@ -4,7 +4,7 @@ A hands-on machine learning project where I built a digit recognizer (0–9) usi
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project solves the classic **MNIST digit classification** problem using a simple neural network with:
 - One hidden layer (ReLU activation)
@@ -16,7 +16,7 @@ The model is trained on a subset of 1000 images and evaluated on the test set of
 
 ---
 
-## 🔢 Neural Network Architecture
+## Neural Network Architecture
 
 ```
 Input Layer (784 nodes)
@@ -38,7 +38,7 @@ Output Layer (10 Softmax nodes)
 
 ---
 
-## 📈 Results
+## Results
 
 - **Test Accuracy**: ~95.0% (trained on just 10000 examples)
 - **Confusion Matrix**: Shows excellent performance on most digits
@@ -46,7 +46,7 @@ Output Layer (10 Softmax nodes)
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Python
 - NumPy
